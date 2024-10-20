@@ -1,0 +1,35 @@
+body {
+    background-color: #1e1e1e;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.terminal {
+    width: 80%;
+    max-width: 800px;
+    border: 1px solid #00ff00;
+    padding: 10px;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+.output {
+    height: 300px;
+    overflow-y: scroll;
+    white-space: pre;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    padding: 5px;
+    background-color: #000000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    outline: none;
+}
